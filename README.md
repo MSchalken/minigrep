@@ -7,25 +7,6 @@ Built by following the *The Rust Programming Language* book’s minigrep project
 
 ---
 
-## Table of Contents
-
-- Features  
-- Getting Started  
-  - Prerequisites  
-  - Build  
-- Usage  
-  - Examples  
-  - Case-Insensitive Search  
-- Project Structure  
-- How It Works  
-- Testing  
-- Performance Tips  
-- Troubleshooting  
-- Attribution  
-- License
-
----
-
 ## Features
 
 - ✅ Simple CLI: `minigrep <query> <path>`
@@ -104,19 +85,6 @@ $env:CASE_INSENSITIVE=1; cargo run -- to poem.txt
 ```cmd
 set CASE_INSENSITIVE=1
 cargo run -- to poem.txt
-```
-
----
-
-## Project Structure
-
-```
-minigrep/
-├─ src/
-│  ├─ main.rs      # CLI parsing, I/O, error handling
-│  └─ lib.rs       # Core search logic + tests
-├─ Cargo.toml
-└─ README.md
 ```
 
 ---
